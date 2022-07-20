@@ -36,6 +36,8 @@ namespace OpenRPA.SAP
             SAPhook.Instance.InvokeMethod(systemname, path, "StartTransaction", _parameters, TimeSpan.FromSeconds(PluginConfig.bridge_timeout_seconds));
         }
         [LocalizedDisplayName("activity_displayname", typeof(Resources.strings)), LocalizedDescription("activity_displayname_help", typeof(Resources.strings))]
+        
+        // Testar a partir daqui
         public new string DisplayName
         {
             get
